@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38971eb6-7c26-44c2-b266-2b3ea7adc398" name="Changes" comment="v.1.7">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+    <list default="true" id="38971eb6-7c26-44c2-b266-2b3ea7adc398" name="Changes" comment="v.1.8">
+      <change beforePath="$PROJECT_DIR$/app/alembic/versions/458dccaf5873_initial_migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/alembic/versions/458dccaf5873_initial_migration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager.db" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732213212399</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v.1.8">
+      <option name="closed" value="true" />
+      <created>1732219752928</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732219752928</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v.1.8">
+      <option name="closed" value="true" />
+      <created>1732219765608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732219765608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +160,7 @@
     <MESSAGE value="v.1.5" />
     <MESSAGE value="v.1.6" />
     <MESSAGE value="v.1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.1.7" />
+    <MESSAGE value="v.1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.1.8" />
   </component>
 </project>
