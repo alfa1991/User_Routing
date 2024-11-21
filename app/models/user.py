@@ -14,3 +14,8 @@ class User(Base):
 
     # Связь с моделью Task
     tasks = relationship("Task", back_populates="user")
+
+
+    content = Column(String, nullable=False)
+    priority = Column(Integer, default=0)
+    completed = Column(Boolean, default=False)
