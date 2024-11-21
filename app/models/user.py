@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Boolean
 from sqlalchemy.orm import relationship
 from app.backend.db import Base
 
@@ -16,6 +16,3 @@ class User(Base):
     tasks = relationship("Task", back_populates="user")
 
 
-    content = Column(String, nullable=False)
-    priority = Column(Integer, default=0)
-    completed = Column(Boolean, default=False)

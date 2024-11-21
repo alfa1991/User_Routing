@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38971eb6-7c26-44c2-b266-2b3ea7adc398" name="Changes" comment="v.1.8">
-      <change beforePath="$PROJECT_DIR$/app/alembic/versions/458dccaf5873_initial_migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/alembic/versions/458dccaf5873_initial_migration.py" afterDir="false" />
+    <list default="true" id="38971eb6-7c26-44c2-b266-2b3ea7adc398" name="Changes" comment="v.1.9">
+      <change afterPath="$PROJECT_DIR$/app/routers/taskmanager.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routers/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/taskmanager.db" beforeDir="false" afterPath="$PROJECT_DIR$/app/taskmanager.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taskmanager.db" beforeDir="false" afterPath="$PROJECT_DIR$/taskmanager.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +43,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Ilgiz Agliullin/PycharmProjects/pythonProject1/alembic"
+    "last_opened_file_path": "C:/Users/Ilgiz Agliullin/PycharmProjects/pythonProject1/app"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilgiz Agliullin\PycharmProjects\pythonProject1\app" />
+      <recent name="C:\Users\Ilgiz Agliullin\PycharmProjects\pythonProject1\app\routers" />
       <recent name="C:\Users\Ilgiz Agliullin\PycharmProjects\pythonProject1\alembic" />
       <recent name="C:\Users\Ilgiz Agliullin\PycharmProjects\pythonProject1" />
       <recent name="C:\Users\Ilgiz Agliullin\PycharmProjects\pythonProject1\alembic\versions" />
@@ -138,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732219765608</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v.1.8.1 delete in migration: op.drop_table('users')&#10;op.drop_table('tasks') who delete table">
+      <option name="closed" value="true" />
+      <created>1732219985676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732219985676</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v.1.9">
+      <option name="closed" value="true" />
+      <created>1732220495822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732220495822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +186,8 @@
     <MESSAGE value="v.1.6" />
     <MESSAGE value="v.1.7" />
     <MESSAGE value="v.1.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="v.1.8" />
+    <MESSAGE value="v.1.8.1 delete in migration: op.drop_table('users')&#10;op.drop_table('tasks') who delete table" />
+    <MESSAGE value="v.1.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="v.1.9" />
   </component>
 </project>

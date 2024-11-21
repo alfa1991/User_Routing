@@ -18,7 +18,7 @@ def root():
 
 # Подключаем маршруты
 app.include_router(task_router)
-app.include_router(user_router)
+app.include_router(user_router, prefix="/user", tags=["user"])
 
 async def init_db():
     async with engine.begin() as conn:
