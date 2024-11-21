@@ -1,8 +1,12 @@
 from fastapi import FastAPI
-from routers.task import router as task_router
-from routers.user import router as user_router
+from app.routers.task import router as task_router
+from app.routers.user import router as user_router
 import asyncio
-from app.backend.db import engine, Base
+from .backend.db import engine, Base
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 
 app = FastAPI()
 
